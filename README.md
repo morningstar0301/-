@@ -3,4 +3,11 @@
 
  ./mongoimport -d rc -c articles --type=json --file /data/release/Q2.json
 
- #-
+ #-MP4瘦身
+ffmpeg -i 2023-10-ITERO-Msg02-E.mp4 -fs 200M -s 640x320 -c:a copy 2.mp4
+
+#chm转 html :
+hh -decompile D:\html D:\test.chm
+
+#音频截取：
+ffmpeg -i c1.mp3 -ss xx:xx:xx -to xx:xx:xx xx.mp3
