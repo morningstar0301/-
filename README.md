@@ -13,3 +13,6 @@ hh -decompile D:\html D:\test.chm
 ffmpeg -i c1.mp3 -ss xx:xx:xx -to xx:xx:xx xx.mp3
 
 iSilo 4.3 win  注册码 KJNX9TKNP4TG94U7
+
+
+ST mongodb 启动方法： mongod --config /etc/mongod.conf
