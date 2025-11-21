@@ -16,3 +16,8 @@ iSilo 4.3 win  注册码 KJNX9TKNP4TG94U7
 
 
 ST mongodb 启动方法： mongod --config /etc/mongod.conf
+
+-------git 操作-------------
+git add . 的作用是‌将当前目录（及其子目录）中所有新创建的文件（未跟踪）和内容已修改的文件（已跟踪）添加到Git的‌暂存区（staging area）‌，为后续提交（commit）做准备。‌
+git commit
+git push origin main  # 推送合并结果
